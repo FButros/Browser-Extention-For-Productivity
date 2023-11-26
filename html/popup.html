@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productivity Plus</title>
+    <link rel="stylesheet" type="text/css" href="../css/popup.css">
+</head>
+<body>
+    <h1>Productivity Plus</h1>
+    <div>
+        <h2>Block a New Website</h2>
+        <input type="text" id="siteInput" placeholder="Enter website URL">
+        <button id="blockSiteButton">Block Site</button>
+    </div>
+    <div>
+        <h2>Blocked Websites</h2>
+        <ul id="blockedSitesList"></ul>
+    </div>
+    <div>
+        <h2>Tab Usage Tracking</h2>
+        <label><input type="radio" id="toggleTrackingOn" name="tracking" value="on"> Enable Tracking</label>
+        <label><input type="radio" id="toggleTrackingOff" name="tracking" value="off"> Disable Tracking</label>
+        
+    </div>
+
+    <div>
+        <h2>Time Spent on Current Tab</h2>
+        <div id="currentTabTime"></div>
+        
+    </div>
+    
+    <script src="../js/popup.js"></script>
+</body>
+</html>
